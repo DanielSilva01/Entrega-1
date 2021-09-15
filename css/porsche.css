@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+     background: linear-gradient(90deg, rgb(187, 186, 186), rgb(187, 186, 186), rgb(187, 186, 186));
+}
+
+.topo h1{
+    border-radius: 7px;
+    padding: 10px;
+    margin: auto;
+    background: linear-gradient(90deg, rgb(187, 186, 186), rgb(187, 186, 186), rgb(187, 186, 186));
+    text-align: center;
+    color: black;
+}
+
+.container{
+    font-size: 25px;
+    padding: 10px;
+    margin: auto;
+    width: 90%;
+    background-color: black;
+    display: flex;
+}
+
+
+.banner p{
+    color: white;
+    background-color: red;
+}
+
+.container-2{
+    padding: 10px;
+    margin: auto;
+    width: 90%;
+    background-color: black;
+}
+
+.imagem-2{
+    background: url(imagens/PORSCHE-3.jfif) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-3{
+    background-color: black;
+    padding: 10px;
+    margin: auto;
+    width: 90%;
+}
+
+.imagem-3{
+    background: url(imagens/PORSCHE-1.jfif) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.faixa{
+    border: 7px;
+    color: white;
+    padding: 10px 10px;
+    font-size: 30px;
+    text-align: justify;
+    margin: auto;
+    width: 90%;
+    height: 500px;
+    background: linear-gradient(90deg, rgb(119, 115, 115), rgb(51, 47, 47), rgb(0, 0, 0));
+}
+
+.faixa h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+img{
+    width: 100%;
+}
+
+.footer{
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+@media(max-width:450px){
+    .container-2, h2, p{
+        font-size: 28px;
+    }
+
+    .container-2 img{
+        width: 100%;
+    }
+
+    .topo h1{
+        margin: auto;
+        width: 90%;
+    }
+}
+
+@media(max-width:512px){
+    .container-2, h2, p{
+        font-size: 20px;
+    }
+
+    .container-2 img{
+        width: 100%;
+    }
+
+    .topo h1{
+        margin: auto;
+        width: 90%;
+    }
+}
+
+@media(max-width:312px){
+    .container-2, h2, p{
+        font-size: 20px;
+    }
+
+    .container-2 img{
+        width: 100%;
+    }
+
+    .topo h1{
+        margin: auto;
+        width: 90%;
+    }
+}
+
+
+

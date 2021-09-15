@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(164, 255, 79), rgb(136, 230, 49), black)
+}
+
+.topo{
+    width: 90%;
+    color: white;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(164, 255, 79), rgb(136, 230, 49), black) 
+}
+.container-1{
+    background-color: rgb(119, 115, 115);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    padding: 5px;
+    width: 90%;
+}
+.banner-1 h2{
+    text-align: center;
+}
+
+.container-2{
+    text-align: justify;
+    height: 450px;
+    margin: 0px; 
+    padding: 10px;
+    color: white;
+    background: linear-gradient(90deg, rgb(119, 115, 115), rgb(51, 47, 47), black)
+    
+}
+
+.container-2 h1{
+    text-align: center;
+    padding-top: 70px;
+    
+}
+
+.container-3{
+    background-color: rgb(187, 179, 179);
+    margin: 0px;
+    padding: 0px;
+    color: greenyellow;
+    text-align: center;
+}
+
+.container-3 a{
+    margin: 10px;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    border-bottom: 2px solid red;
+}
+
+.container, .container-2 p{
+    font-size: 20px;
+}
+
+.container h2{
+    position: absolute;
+    height: 70px;
+    top: 250px;
+    left: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+   /* CARROSSEL */
+
+
+.container-4{
+    width: 100%;
+    position: relative;
+    margin: auto;
+    
+}
+
+img{
+    width: 100%;
+}
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+
+}
+
+.prev{
+    left: 0;
+}
+.next{
+    right: 0;
+}
+
+.prev:hover, .next:hover{
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: black;
+}
+.i_text{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.596);
+    font-size: 25px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_box{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.active, .dot:hover{
+    background-color: #717171;
+}
+
+@media(max-width:850px){ 
+
+    .container-1, .container-2, .container-3, .container-4{
+        margin: 0px;
+        width: auto;
+        display: block;
+    }
+
+    .box-1, .banner-1{
+        margin: auto;
+    }
+}
+
+@media(max-width:512px){
+    .container-2, h2, p{
+        font-size: 20px;
+    }
+
+    .container-2 img{
+        width: 100%;
+    }
+
+    .topo h1{
+        margin: auto;
+        width: 90%;
+    }
+}
+
+@media(max-width:500px){
+    .container-2, h2, p{
+        font-size: 20px;
+    }
+
+    .container-2 img{
+        width: 100%;
+    }
+
+    .topo h1{
+        margin: auto;
+        width: 90%;
+    }
+}
+
+
